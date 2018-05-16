@@ -19,12 +19,18 @@ set(NeopgHeaders
   openpgp/object_identifier.h
   openpgp/packet.h
   openpgp/packet_header.h
+  openpgp/public_key_data.h
+  openpgp/public_key_material.h
+  openpgp/public_key_packet.h
+  openpgp/public_subkey_packet.h
   openpgp/raw_packet.h
   openpgp/symmetrically_encrypted_data_packet.h
   openpgp/symmetrically_encrypted_integrity_protected_data_packet.h
   openpgp/trust_packet.h
   openpgp/user_attribute_packet.h
   openpgp/user_id_packet.h
+  openpgp/v3_public_key_data.h
+  openpgp/v4_public_key_data.h
   parser/openpgp.h
   parser/parser_error.h
   parser/parser_input.h
@@ -46,12 +52,18 @@ add_library(neopg
   openpgp/object_identifier.cpp
   openpgp/packet.cpp
   openpgp/packet_header.cpp
+  openpgp/public_key_data.cpp
+  openpgp/public_key_material.cpp
+  openpgp/public_key_packet.cpp
+  openpgp/public_subkey_packet.cpp
   openpgp/raw_packet.cpp
   openpgp/symmetrically_encrypted_data_packet.cpp
   openpgp/symmetrically_encrypted_integrity_protected_data_packet.cpp
   openpgp/trust_packet.cpp
   openpgp/user_attribute_packet.cpp
   openpgp/user_id_packet.cpp
+  openpgp/v3_public_key_data.cpp
+  openpgp/v4_public_key_data.cpp
   parser/openpgp.cpp
   parser/parser_input.cpp
   proto/http.cpp
